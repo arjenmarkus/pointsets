@@ -1,0 +1,29 @@
+name = "pointsets"
+version = "0.1.0"
+license = "MIT"
+author = "Arjen Markus"
+maintainer = "arjen.markus895@gmail.com"
+copyright = "2020 Arjen Markus"
+
+[[library]]
+source-dir="src"
+
+[[test]]
+name="test_enumerate_space"
+source-dir="test/enumerate_space"
+main="test_enum_space.f90"
+
+[[test]]
+name="test_pointsets"
+source-dir="test/pointsets"
+main="test_pointsets.f90"
+
+[[test]]
+name="test_quasirandom"
+source-dir="test/quasirandom"
+main="test_quasirandom.f90"
+
+[[test]]
+name="test_random_permutations"
+source-dir="test/random_permutations"
+main="test_random_permutations.f90"
