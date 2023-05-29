@@ -14,11 +14,6 @@ source-dir="test/enumerate_space"
 main="test_enum_space.f90"
 
 [[test]]
-name="test_latin_hypercube"
-source-dir="test/latin_hypercube"
-main="test_latin_hypercube.f90"
-
-[[test]]
 name="test_pointsets"
 source-dir="test/pointsets"
 main="test_pointsets.f90"
